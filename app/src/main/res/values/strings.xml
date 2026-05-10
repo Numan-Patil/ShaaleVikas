@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Shaale-Vikas</string>
+    <string name="tagline">ಶಾಲೆ-ವಿಕಾಸ · School-Alumni Bridge</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="new_here_register">New here? Create Account</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="i_am_an">I am an...</string>
+    <string name="alumni">Alumni</string>
+    <string name="admin">Admin</string>
+    <string name="admin_code">Admin Code</string>
+
+    <string name="needs_dashboard">ShaaleVikas</string>
+    <string name="logout">Logout</string>
+    <string name="pledge">Pledge Support</string>
+    <string name="pledged">Pledged!</string>
+    <string name="impact_photos">Impact Photos</string>
+
+    <string name="hall_of_fame_title">Hall of Fame</string>
+    <string name="hall_of_fame_subtitle">Top Alumni Contributors</string>
+    <string name="hall_of_fame">Hall of Fame</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_impact"
+        android:icon="@drawable/ic_nav_impact"
+        android:title="Impact"/>
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_nav_needs"
+        android:title="Needs"/>
+
+    <item
+        android:id="@+id/nav_hall_of_fame"
+        android:icon="@drawable/ic_nav_fame"
+        android:title="Hall of Fame"/>
+
+</menu>

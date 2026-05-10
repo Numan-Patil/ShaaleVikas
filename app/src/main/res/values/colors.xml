@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Neobrutalist Palette -->
+    <color name="colorPrimary">#5C8AE6</color>
+    <color name="colorAccentYellow">#F4D06F</color>
+    <color name="colorAccentGreen">#A8D8B9</color>
+    <color name="colorAccentPink">#F4A8B0</color>
+    <color name="colorAccentLavender">#D4B8F4</color>
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#FDFCF6</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Text and Borders -->
+    <color name="colorTextPrimary">#1A1A1A</color>
+    <color name="colorTextSecondary">#4A4A4A</color>
+    <color name="colorBorder">#1A1A1A</color>
+    <color name="colorShadow">#1A1A1A</color>
+
+    <color name="colorBorderLight">#E8E8E0</color>
+    <color name="black">#000000</color>
+
+    <!-- Pledge Button Color -->
+    <color name="colorPledge">#FF2E63</color>
+
+    <!-- Rank Colors -->
+    <color name="gold">#FFD700</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="bronze">#CD7F32</color>
+</resources>

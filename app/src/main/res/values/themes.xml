@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ShaaleVikas" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccentYellow</item>
+        <item name="colorSecondaryVariant">@color/colorAccentYellow</item>
+        <item name="colorOnSecondary">@color/colorTextPrimary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/colorAccentYellow</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <!-- Typography -->
+        <item name="android:fontFamily">@font/outfit</item>
+    </style>
+
+    <style name="RoundedSquare">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="NeobrutalistCard">
+        <item name="android:background">@drawable/bg_neobrutalist_card</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="NeobrutalistButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:background">@drawable/bg_neobrutalist_button</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+</resources>

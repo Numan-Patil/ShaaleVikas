@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFu9q9HhpLMA0GCSqGSIb3DQEBDAUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+            C1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzEQMA4GA1UECgwHR29vZ2xl
+            MRQwEgYDVQQLDAtBbmRyb2lkIE1TVDEWMBQGA1UEAwwNQW5kcm9pZCBEZWJ1ZzEXMBUGCSqGSIb3
+            DQEJARYIZGVidWdAYW5kcm9pZC5jb20wHhcNMDkwODAyMTkyNjMzWhcNMzcwMTIyMTkyNjMzWjCB
+            lDELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDU1vdW50YWluIFZp
+            ZXcxEDAOBgNVBAoMB0dvb2dsZTEUMBIGA1UECwwLQW5kcm9pZCBNU1QxFjAUBgNVBAMMDUFuZHJv
+            aWQgRGVidWcxFzAVBgkqhkiG9w0BCQEWCHRlYnVnQGFuZHJvaWQuY29tMIIBIjANBgkqhkiG9w0B
+            AQEFAAOCAQ8AMIIBCgKCAQEAvVv9X+m+S87A/S7Hj03Q+6l406pX2eYfN0i6Z8E8yH7Y4vHlY3/9
+            KKeYHE8LY58m9K8HqiM3R0+1rA=="
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFu9q9HhpLMA0GCSqGSIb3DQEBDAUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+            C1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzEQMA4GA1UECgwHR29vZ2xl
+            MRQwEgYDVQQLDAtBbmRyb2lkIE1TVDEWMBQGA1UEAwwNQW5kcm9pZCBEZWJ1ZzEXMBUGCSqGSIb3
+            DQEJARYIZGVidWdAYW5kcm9pZC5jb20wHhcNMDkwODAyMTkyNjMzWhcNMzcwMTIyMTkyNjMzWjCB
+            lDELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDU1vdW50YWluIFZp
+            ZXcxEDAOBgNVBAoMB0dvb2dsZTEUMBIGA1UECwwLQW5kcm9pZCBNU1QxFjAUBgNVBAMMDUFuZHJv
+            aWQgRGVidWcxFzAVBgkqhkiG9w0BCQEWCHRlYnVnQGFuZHJvaWQuY29tMIIBIjANBgkqhkiG9w0B
+            AQEFAAOCAQ8AMIIBCgKCAQEAvVv9X+m+S87A/S7Hj03Q+6l406pX2eYfN0i6Z8E8yH7Y4vHlY3/9
+            KKeYHE8LY58m9K8HqiM3R0+1rA=="
+        </item>
+    </string-array>
+</resources>

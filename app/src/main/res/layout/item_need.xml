@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/bg_neobrutalist_card"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Priority Badge -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:background="@drawable/bg_neobrutalist_button"
+        android:backgroundTint="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:id="@+id/ivPriority"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_priority"
+            android:layout_marginEnd="6dp"
+            app:tint="@color/colorTextPrimary"/>
+
+        <TextView
+            android:id="@+id/tvPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Priority"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repair leaking roof"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_location"
+            android:layout_marginEnd="4dp"
+            app:tint="@color/colorTextSecondary"/>
+
+        <TextView
+            android:id="@+id/tvSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Government School, Dharwad"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextSecondary"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The roof has been leaking for 2 years affecting 3 classrooms"
+        android:textSize="14sp"
+        android:textColor="@color/colorTextSecondary"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Progress Bar Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/bg_neobrutalist_button"
+        android:backgroundTint="@color/colorBackground"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="₹42,000 of ₹60,000 pledged"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="8dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:progress="70"
+            android:max="100"
+            android:progressDrawable="@drawable/custom_progress_bar"
+            android:layout_marginBottom="4dp"/>
+    </LinearLayout>
+
+    <!-- Pledge Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPledge"
+        style="@style/NeobrutalistButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Pledge Support"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_pledge_button"
+        app:icon="@drawable/ic_pledge"
+        app:iconGravity="textStart"
+        app:iconTint="@color/white"/>
+
+</LinearLayout>
