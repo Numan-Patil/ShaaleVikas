@@ -49,16 +49,6 @@
 
 ---
 
-## 📸 Screen Previews
-
-| Authentication | Dashboard | Impact Gallery |
-| :---: | :---: | :---: |
-| ![Auth](https://via.placeholder.com/200x400?text=Login+Screen) | ![Dashboard](https://via.placeholder.com/200x400?text=Needs+List) | ![Impact](https://via.placeholder.com/200x400?text=Before+and+After) |
-
-*(Note: Replace placeholders with actual screenshots from the `app/src/main/res/drawable` folder or device captures)*
-
----
-
 ## ⚙️ Installation & Setup
 
 1. **Clone the Repository**:
