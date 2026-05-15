@@ -2,6 +2,9 @@
 
 **ShaaleVikas** (School Development) is a community-driven Android application designed to empower schools by connecting their urgent resource needs with willing contributors. The platform facilitates transparency and tracks the tangible impact of social contributions.
 
+🔗 **Live Demo**: [https://shaale-vikas.vercel.app/](https://shaale-vikas.vercel.app/)
+
+
 ---
 
 ## 🚀 Key Features
